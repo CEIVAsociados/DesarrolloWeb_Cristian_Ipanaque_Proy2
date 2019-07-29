@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Calibri", Verdana, Century, Arial;
+}
+
+header{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+}
+
+h1{
+	padding: 20px 30px;
+	text-shadow: 2px 2px #02010a;
+	font-style: italic;
+}
+
+nav {
+	text-align: right;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 30px;
+}
+
+a:hover{
+	cursor: pointer;
+}
+.principal{
+	background-color: #82c3a6;
+	width: 100%;
+	text-align: center;
+}
+
+#img1{
+	width: 700px;
+	padding: 50px;
+}
+
+.secundario{
+	background-color: #d5c75f;
+	border: 1px solid #fff;
+	width: 100%;
+	padding: 30px 0 30px 0px;
+	text-align: center;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	flex-direction: row-center;
+}
+
+#img2{
+	margin: 20px;
+	width: 400px;ç
+	transition: width 2s;
+}
+.secundario > :first-child:hover{
+	animation: rotar 3s;
+	box-shadow: 2px 0 #82c3a6;
+}
+
+#img3{
+	margin: 20px;
+	width: 400px;
+}
+
+.secundario > :first-child:hover{
+	animation: rotar 3s;
+	box-shadow: 2px 0 #82c3a6;
+}
+
+.secundario > :last-child:hover{
+	animation: rotar 3s;
+	box-shadow: 2px 0 #82c3a6;
+}
+
+@-webkit-keyframes rotar{
+	from{
+		transform: rotate(0deg);
+	}to{
+		transform: rotate(10deg);
+	}
+	
+}
